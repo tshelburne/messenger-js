@@ -11,7 +11,7 @@ require 'echoe'
 Echoe.new("messenger") do |p|
   p.author = "Tim Shelburne"
   p.email = "shelburt02@gmail.com"
-  p.url = "https://github.com/tshelburne/GITHUB_NAME"
+  p.url = "https://github.com/tshelburne/messenger-js"
 
   p.ignore_pattern = FileList[".gitignore"]
   p.development_dependencies = [ "jasmine", "jasmine-headless-webkit" ]
