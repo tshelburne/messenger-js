@@ -26,7 +26,6 @@ bin/messenger.js
 config/assets.rb
 lib/messenger.rb
 lib/messenger/symbols.rb
-messenger.gemspec
 spec/jasmine.yml
 spec/runner.html
 spec/support/classes.coffee

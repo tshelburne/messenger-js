@@ -8,7 +8,7 @@ require 'jasmine-headless-webkit'
 require 'keystone'
 require 'echoe'
 
-Echoe.new("messenger") do |p|
+Echoe.new("messenger-js") do |p|
   p.author = "Tim Shelburne"
   p.email = "shelburt02@gmail.com"
   p.url = "https://github.com/tshelburne/messenger-js"
