@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = "shelburt02@gmail.com"
   s.extra_rdoc_files = ["CHANGELOG", "LICENSE", "README.rdoc", "lib/messenger.rb", "lib/messenger/symbols.rb"]
   s.files = ["CHANGELOG", "Gemfile", "Gemfile.lock", "messenger.gemspec", "LICENSE", "Manifest", "README.rdoc", "Rakefile", "assets/scripts/coffee/library.coffee", "config/assets.rb", "lib/messenger.rb", "lib/messenger/symbols.rb", "spec/jasmine.yml", "spec/support/classes.coffee", "spec/support/helpers.coffee", "spec/support/mocks.coffee", "spec/support/objects.coffee", "spec/support/requirements.coffee"]
-  s.homepage = "https://github.com/tshelburne/GITHUB_NAME"
+  s.homepage = "https://github.com/tshelburne/messenger-js"
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Messenger", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = "messenger"

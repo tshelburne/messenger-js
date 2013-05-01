@@ -1,7 +1,8 @@
-assets_are_in "#{::LIBRARY_NAME_UCASE.root_path}/assets"
+assets_are_in "#{::Messenger.root_path}/assets"
 
 asset 'messenger.js' do |a|
-	a.scan 'scripts/coffee'
+	a.scan 'scripts/coffee', 'scripts/js'
+	a.add_assets_from ::Cronus.keystone_compiler
 	a.toolchain :coffeescript, :require
 	a.post_build :closure
 end

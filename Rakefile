@@ -1,6 +1,7 @@
 $: << File.expand_path("#{File.dirname(__FILE__)}/lib")
 
 require 'messenger'
+require 'cronus'
 
 require 'rake'
 require 'jasmine-headless-webkit'
